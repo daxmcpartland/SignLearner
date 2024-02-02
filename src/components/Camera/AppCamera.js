@@ -4,7 +4,7 @@
  * hand signs.
  * 
  * Author: Dax McPartland
- * Date: February 1, 2024
+ * Date: July 29, 2023
 */
 import { Camera } from 'expo-camera'
 import React from 'react'

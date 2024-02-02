@@ -4,7 +4,7 @@
  * instructs the user how to complete the sign.
  * 
  * Author: Dax McPartland
- * Date: February 1, 2024
+ * Date: July 29, 2023
 */
 import React from 'react'
 import AppCamera from './Camera/AppCamera'

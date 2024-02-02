@@ -3,7 +3,7 @@
  * App file for sign learner
  * 
  * Author: Dax McPartland
- * Date: February 1, 2024
+ * Date: July 29, 2023
 */
 import React from 'react'
 import { ThemeProvider } from './contexts/ThemeContext'

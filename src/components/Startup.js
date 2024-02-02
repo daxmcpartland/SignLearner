@@ -4,7 +4,7 @@
  * options to login with their username and password.
  * 
  * Author: Dax McPartland
- * Date: February 1, 2024
+ * Date: July 29, 2023
 */
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'

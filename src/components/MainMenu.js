@@ -4,7 +4,7 @@
  * and if the user has completed them.
  * 
  * Author: Dax McPartland
- * Date: February 1, 2024
+ * Date: July 29, 2023
 */
 import React from 'react'
 import LetterLesson from './LetterLesson'
