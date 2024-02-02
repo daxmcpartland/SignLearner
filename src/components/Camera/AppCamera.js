@@ -1,3 +1,11 @@
+/*
+ * AppCamera.js
+ * This is the camera and allows the users to take images of their 
+ * hand signs.
+ * 
+ * Author: Dax McPartland
+ * Date: February 1, 2024
+*/
 import { Camera } from 'expo-camera'
 import React from 'react'
 import { StyleSheet, Text, View, Alert, Image} from 'react-native'
@@ -15,9 +23,6 @@ export default function AppCamera(props) {
     const [loading, setLoading] = React.useState(false)
     const cameraRef = React.useRef(null) 
 
-    // Effects run as soon as the component mounts, so it's the first thing that happens
-    // Hi future Dax here, the effects runs as soon as whatever you give. For example, if you give it a state, whenever
-    // that state changes then this will run. Because I didn't give it anything it will do it when this component renders
     React.useEffect(() => {
         (async () => {
             MediaLibrary.requestPermissionsAsync()

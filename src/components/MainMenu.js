@@ -1,3 +1,11 @@
+/*
+ * MainMenu.js
+ * The main menu for the app. This will show all the lessons for hand signs
+ * and if the user has completed them.
+ * 
+ * Author: Dax McPartland
+ * Date: February 1, 2024
+*/
 import React from 'react'
 import LetterLesson from './LetterLesson'
 import { StyleSheet, Text, View, Button, Alert, Image } from 'react-native'

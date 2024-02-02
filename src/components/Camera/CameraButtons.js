@@ -1,3 +1,10 @@
+/*
+ * CameraButtons.js
+ * These are the buttons that control the camera.
+ * 
+ * Author: Dax McPartland
+ * Date: February 1, 2024
+*/
 import React from 'react'
 import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { Entypo } from '@expo/vector-icons'

@@ -1,3 +1,11 @@
+/*
+ * StartUp.js
+ * This loads the start up page for the app. This page will give the user
+ * options to login with their username and password.
+ * 
+ * Author: Dax McPartland
+ * Date: February 1, 2024
+*/
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
 import MainMenu from './MainMenu'

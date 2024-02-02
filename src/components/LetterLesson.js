@@ -1,3 +1,11 @@
+/*
+ * LetterLesson.js
+ * This page shows information about the current hand sign and
+ * instructs the user how to complete the sign.
+ * 
+ * Author: Dax McPartland
+ * Date: February 1, 2024
+*/
 import React from 'react'
 import AppCamera from './Camera/AppCamera'
 import { StyleSheet, Text, View, Button, Image } from 'react-native'
