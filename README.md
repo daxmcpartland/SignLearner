@@ -58,22 +58,16 @@
         <h2>How it works</h2>
         <section class="example">
             <column class="col-1">
-              <figure>
                 <image src="./images/signlearner-lesson.png" width="250" height="500"/>
                 <figcaption>1. Read up on how to correctly do a letter</figcaption>
-              </figure>
             </column>
             <column class="col-2">
-              <figure>
                 <image src="./images/signlearner-camera.png" width="250" height="500"/>
                 <figcaption>2. Take an image to test your knowledge on the hand sign</figcaption>
-              </figure>
             </column>
             <column class="col-3">
-              <figure>
                 <image src="./images/signlearner-check.png" width="250" height="500"/>
                 <figcaption>3. The AI model will tell you if you are doing it right or not</figcaption>
-              </figure>
             </column>
         </section>
     </main>
