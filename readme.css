@@ -56,13 +56,14 @@ column ul{
 figcaption{
     font-size: 16px;
 }
-@media only screen and (max-width: 768px) {
-    section {
-        flex-direction: column;
-        max-width: 100%;
-        width: 100%;
-    }
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
 
+@media only screen and (max-width: 768px) {
     column,
     .col-2 {
         text-align: center;
