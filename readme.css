@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color:#1079ac;
+    font-size: 34px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-size: 18px;
+    font-family: 'Gentium Book Basic';
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 50%;
+    justify-content: center;
+    gap:25px;
+}
+
+column{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.col-2{
+    text-align: start;
+}
+
+column ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+figcaption{
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    column,
+    .col-2 {
+        text-align: center;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        font-size: 16px;
+    }
+}
