@@ -77,13 +77,26 @@ section {
         padding: 0 15px;
     }
 
-    figcaption {
+    .example {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .example column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-    img {
+
+    .example column img {
         max-width: 100%;
         height: auto;
-        margin: 0 auto; 
+    }
+
+    figcaption {
+        margin-top: 10px;
     }
 }
 
