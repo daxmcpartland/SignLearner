@@ -58,16 +58,28 @@
         <h2>How it works</h2>
         <section class="example">
             <column class="col-1">
-                <image src="./images/signlearner-lesson.png" width="250" height="500"/>
-                <figcaption>1. Read up on how to correctly do a letter</figcaption>
+              <ul>
+                <li>1. Read up on how to correctly do a letter</li>
+              </ul>
             </column>
             <column class="col-2">
-                <image src="./images/signlearner-camera.png" width="250" height="500"/>
-                <figcaption>2. Take an image to test your knowledge on the hand sign</figcaption>
+              <image src="./images/signlearner-lesson.png" width="250" height="500"/>
             </column>
-            <column class="col-3">
-                <image src="./images/signlearner-check.png" width="250" height="500"/>
-                <figcaption>3. The AI model will tell you if you are doing it right or not</figcaption>
+             <column class="col-1">
+              <ul>
+                <li>2. Take an image to test your knowledge on the hand sign</li>
+              </ul>
+            </column>
+            <column class="col-2">
+              <image src="./images/signlearner-camera.png" width="250" height="500"/>
+            </column>
+             <column class="col-1">
+              <ul>
+                <li>3. The AI model will tell you if you are doing it right or not</li>
+              </ul>
+            </column>
+            <column class="col-2">
+              <image src="./images/signlearner-check.png" width="250" height="500"/>
             </column>
         </section>
     </main>
